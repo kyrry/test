@@ -42,10 +42,23 @@ export default {
   },
   mounted () {
 
-        // 取值 state
-        console.log(this.$store.get.state);
-        console.log(this.$store.get.state.Login.loginDate);
+       
+
+      // 触发mutations存值
+      // this.$store.get.commit('saveloginDate', {
+      //   loginDate: '5678'
+      // });
+
+      // 触发action 存值
+      this.$store.get.dispatch({
+        type : 'saveloginDate',
+        loginDate: '7890'
+      });
     
+
+       // 取值 state
+       console.log(this.$store.get.state);
+       console.log(this.$store.get.state.Login.loginDate);
     
 
 

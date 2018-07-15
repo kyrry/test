@@ -17,7 +17,7 @@ export default {
     //    App: _.find(state, 'App').App.default,
 	// },
 
-	//路由部分  （哪个路由需要使用到取vuex）
+	//路由部分  （哪个路由需要使用到取vuex）  moudel的使用： https://segmentfault.com/a/1190000009404727#articleHeader1
 	store: [
 
 		// 登录页 

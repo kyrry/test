@@ -20,6 +20,10 @@ export default {
   computed: {
   },
   mounted () {
+    
+      // 取值
+      console.log(this.$store.get.state);
+      console.log(this.$store.get.state.Login.loginDate);
 
     if(this.$versions().ios) {
       this.client = 'ios';
@@ -37,6 +41,11 @@ export default {
   methods: {
 
 
+// this.$store.get.dispatch({
+//   type : 'branchData',
+//   data : text,
+//   isShow: false,
+// });
 
 
 
@@ -44,10 +53,23 @@ export default {
 
     // vuex的使用
     btnClick(){
+     
+      // 触发mutations存值
+      // this.$store.get.commit('saveloginDate', {
+      //   loginDate: '1234'
+      // });
+
       // 触发action 存值
-      this.$store.get.commit('saveloginDate', {
+      this.$store.get.dispatch({
+        type : 'saveloginDate',
         loginDate: '1234'
       });
+
+
+
+
+      // $store.dispatch('saveloginDate')
+
       // 取值
       console.log(this.$store.get.state);
       console.log(this.$store.get.state.Login.loginDate);
