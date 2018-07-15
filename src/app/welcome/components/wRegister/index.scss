@@ -1,0 +1,69 @@
+@import "~assets/styles/_bootstrap";
+
+.wRegister-page {
+ height: 100%;
+ background: #fff;
+
+ .wrapper {
+  //  padding-top: rem(90px);
+
+   .controller {
+
+    .wRegister {
+      padding: 0 rem(65px);
+  
+      
+      .submit {
+       
+          // position: relative;
+          width: rem(620px);
+          // background: #fff;
+          margin: rem(88px) auto;
+          height: rem(88px);
+          // font-size: 0.426667rem;
+          // color: #999;
+          .title {
+            margin-top: rem(130px);
+          }
+          p {
+            height: rem(40px);
+            line-height: rem(40px);
+            font-size: rem(16px);
+            margin: rem(60px) 0 rem(29px) 0;
+          }
+      }
+  
+      .nickname {
+          text-align: center;
+          font-size: rem(36px);
+          color:#333;
+          img {
+            width: rem(130px);
+            height: rem(130px);
+            border-radius: 50%;
+            margin: rem(140px) auto;
+            margin-bottom: rem(40px);
+            }
+      }
+  
+      
+     .toReg {
+
+        background-color: #E02E24;
+        border: 1px solid #E02E24;
+       
+      }
+  
+      .tologin {
+     
+          color: #E02E24 ;
+          background: #fff;
+          border:1px solid #E02E24;
+          
+      }
+    }
+   }
+ }
+
+}
+

@@ -1,0 +1,51 @@
+@import "~assets/styles/_bootstrap";
+body {
+  overflow: visible;
+}
+.service-page {
+  height: 100%;
+  background: #fff;
+
+  ._v-content {
+    min-height: 100%;
+    padding-bottom: rem(100px);
+    padding-top: rem(700px); 
+  }
+
+
+
+  .wrapper {
+      padding:0 rem(20px) 0 rem(20px);
+      .ercode {
+        width: rem(380px);
+        height: rem(380px);
+        border: rem(4px) solid #E02E24;
+        margin: 0 auto;
+
+      }
+      .tit {
+        font-size: rem(34px);
+        margin:rem(37px) 0 rem(74px) 0;
+      }
+      .code {
+        width:rem(340px);
+        height:rem(340px);
+        // margin: auto;
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%)
+        
+      }
+      .tip {
+        margin-top: rem(74px);
+        p {
+          height: rem(80px);
+          line-height: rem(80px);
+          font-size: rem(27px);
+        }
+      }
+  }
+
+
+}

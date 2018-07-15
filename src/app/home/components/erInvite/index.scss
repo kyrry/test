@@ -1,0 +1,45 @@
+@import "~assets/styles/_bootstrap";
+body {
+  overflow: visible;
+}
+.erinvite-page {
+  height: 100%;
+  background: #fff;
+
+  ._v-content {
+    min-height: 100%;
+    padding-bottom: rem(100px);
+    padding-top: rem(700px); 
+  }
+
+
+  .banner {
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+
+  .ercode {
+    position: absolute;
+    width:rem(299px);
+    height:rem(299px);
+    left: 50%;
+    top: rem(672px);
+    transform: translate(-50%,0)
+
+  }
+
+
+
+}
+
+@media screen and  (min-width:360px) and (max-width:500px) {
+  .ercode{
+     top:50% !important;
+   }
+ }  
+@media screen and  (min-width:760px) and (max-width:1034px) {
+  .ercode{
+     top:50% !important;
+   }
+ }  

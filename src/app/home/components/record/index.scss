@@ -1,0 +1,60 @@
+@import "~assets/styles/_bootstrap";
+
+.user-record-page {
+  height: 100%;
+  background: #fff;
+
+  > ._v-container > ._v-content {
+    // padding-top: rem(170px);
+  }
+  
+  .record {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    .record_wrapper {
+        padding: 0 rem(20px);
+        background: #fff;
+        .record_content {
+            border-bottom: 1px solid #dedede;
+            font-size:rem(32px);
+            // height: 2rem;
+            position: relative;
+            padding: rem(20px) 0;
+            .date {
+                font-size: rem(22px);
+                color: #999;
+                margin-top: rem(10px);
+            }
+            .integral {
+                position: absolute;
+                top: rem(50px);
+                right:rem(40px);
+                display: inline-block;
+                font-size: rem(30px);
+                color: #f00;
+                font-size:rem(40px);
+                color:rgba(224,46,36,1);
+            }
+        }
+    }
+    .no-perform {
+        margin-top: 50%;
+        
+        .tip {
+          margin-bottom: rem(20px);
+          text-align: center;
+          color: #aaa;
+        }
+        img {
+          width: rem(125px);
+          width: rem(150px);
+          margin: 0 auto;
+        }
+      }
+    
+}
+
+      
+}

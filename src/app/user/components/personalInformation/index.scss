@@ -1,0 +1,85 @@
+@import "~assets/styles/_bootstrap";
+html {
+    background: #fff;
+}
+
+.personal {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: rem(24px);
+    background: #fff;
+    .personal_wrapper {
+        width: 100%;
+        img {
+            margin: 0 auto;
+            display: inline;
+        }
+        .head {
+            img {
+                width:rem(112px);
+                height:rem(112px);
+                border-radius: 50%;
+                margin-top:rem(50px);
+            }
+            p {
+                color: #c00;
+                text-align: center;
+            }
+            .status {
+                font-size:rem(40px);
+                margin-top:rem(20px);
+            }
+        }
+        .info_box {
+            font-size: rem(24px);
+            .list {
+                span {
+                    color: #c00;
+                }
+                .num {
+                    width: rem(30px);
+                    height: rem(30px);
+                    display: inline-block;
+                    background: #c00;
+                    color: #fff;
+                    text-align: center;
+                    position: absolute;
+                    top:rem(6px);
+                    left: 0;
+                    // margin-right: rem(16px);
+                }
+                p {
+                    padding-left: rem(41px);
+                   line-height: rem(41px);
+                    margin-top:rem(40px);
+                    font-size: rem(24px);
+                }
+                font-size: 0.32rem;
+                .img {
+                    text-align: center;
+                    padding: rem(4px);
+                    // border: 1px solid #c00;
+                    width: rem(204px);
+                    margin: rem(40px) auto;
+                    padding-bottom: rem(20px);
+                    img {
+                        margin: 0 auto;
+                        width:rem(157px);
+                        height:rem(158px);
+                    }
+                }
+            }
+            .btn {
+                margin-top: rem(47px);
+            }
+        }
+    }
+}
+
+.borderBottomDot{
+    padding-bottom: rem(20px);
+    border-bottom: 1px dashed #E2E2E2;
+    width: 100% !important;
+}

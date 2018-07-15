@@ -1,0 +1,97 @@
+@import "~assets/styles/_bootstrap";
+
+.user-addCard-page {
+  height: 100%;
+  background: #edf0f0;
+
+  .wrapper {
+    margin-top: rem(20px);
+    height: 100%;
+
+    .controller {
+
+      .form-group {
+
+    
+
+        .item {
+          padding: 0 rem(20px);
+          width: 100%;
+          height: rem(102px);
+          line-height: rem(102px);
+          border-bottom: 1px solid #eee;
+          background: #fff;
+
+          &:last-child {
+            border-bottom: none;
+          }
+
+          &.w280 {
+            > span {
+              width: rem(300px);
+            }
+
+            .right {
+              width: rem(320px);
+            }
+          }
+
+
+          > span {
+            position: absolute;
+            display: inline-block;
+            left: rem(80px);
+            width: rem(200px);
+            font-size: rem(32px);
+            color: #333;
+            vertical-align: middle;
+
+
+           
+          }
+
+          .right {
+            position: absolute;
+            display: inline-block;
+            right: rem(80px);
+            width: rem(420px);
+            height: 100%;
+            text-align: right;
+
+            &.switch {
+              right: 0;
+              top: 0;
+            }
+
+            span {
+              color: #333;
+
+              &.fc {
+                color: #999;
+              }
+            }
+
+
+
+   
+
+
+
+          }
+        }
+
+
+
+      }
+
+
+    }
+  }
+
+
+
+
+
+}
+
+

@@ -1,0 +1,154 @@
+@import "~assets/styles/_bootstrap";
+
+.user-cardInformation-page {
+  height: 100%;
+  background: #fff;
+
+  .wrapper {
+    // padding: rem(90px) 0;
+    height: 100%;
+
+    .controller {
+
+      .form-group {
+
+        // .input-group {
+        //   margin-top: rem(20px);
+        // }
+
+        .item {
+          padding: 0 rem(11px);
+          width: 100%;
+          height: rem(100px);
+          line-height: rem(100px);
+          border-bottom: 1px solid #eee;
+          background: #fff;
+
+          &:last-child {
+            border-bottom: none;
+          }
+
+          .sp-right {
+            position: absolute;
+            right: rem(40px);
+            top: 0;
+            bottom: 0;
+            margin: auto 0;
+          }
+
+          &.w280 {
+            > span {
+              width: rem(300px);
+            }
+
+            .right {
+              width: rem(320px);
+            }
+          }
+
+
+          > span {
+            position: absolute;
+            display: inline-block;
+            left: rem(50px);
+            width: rem(200px);
+            font-size: rem(32px);
+            color: #333;
+            vertical-align: middle;
+
+
+            > em {
+              padding-left: rem(10px);
+              font-size: rem(32px);
+              color: #ffa60e;
+              vertical-align: middle;
+            }
+          }
+
+          .right {
+            position: absolute;
+            display: inline-block;
+            right: rem(80px);
+            width: rem(420px);
+            height: 100%;
+            text-align: right;
+            color: #333;
+
+            > input {
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              margin: auto 0;
+              right: 0;
+              padding: 0 rem(5px);
+              width: 100%;
+              height: rem(68px);
+              font-size: rem(32px);
+              text-align: left;
+              border: none;
+              vertical-align: middle;
+            }
+
+            .cropper {
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              right: rem(60px);
+              margin: auto 0;
+              width: rem(80px);
+              height: rem(80px);
+            }
+
+          }
+        }
+
+        .button-item {
+          padding-top: rem(95px);
+
+          .btn {
+            display: block;
+            margin: 0 auto;
+            width: rem(710px);
+            height: rem(95px);
+            line-height: rem(95px);
+            font-size: rem(32px);
+            color: #fff;
+            text-align: center;
+            border: none;
+            border-radius: rem(10px);
+            background: #c9c9c9;
+            cursor: pointer;
+
+          }
+        }
+
+      }
+      .note {
+        color: #333;
+        font-size: rem(24px);
+        margin-top: rem(20px);
+        padding: rem(20px);
+        
+        p {
+           font-size: rem(23px);
+            line-height: rem(50px);
+
+            color: #333;
+        }
+        h3 {
+          margin-bottom: rem(20px);
+        }
+    }
+
+
+    .certify-btn {
+      padding: rem(80px) 0;
+      background: #fff;
+    }
+
+    }
+  }
+  
+
+}
+

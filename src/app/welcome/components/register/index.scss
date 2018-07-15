@@ -1,0 +1,121 @@
+@import "~assets/styles/_bootstrap";
+
+.register-page {
+ height: 100%;
+ background: #edf0f0;
+
+ .wrapper {
+   .verCode{
+    width:rem( 170px);
+    height: rem(78px)!important;
+    position: absolute;
+    right:rem(40px);
+    top:rem(12px);
+    border-radius: rem(10px);
+    background: #ddd !important;
+    color:#333 !important;
+   }
+  //  padding-top: rem(90px);
+
+   .controller {
+
+     .form-group {
+
+       .item {
+         position: relative;
+         padding: rem(17px) rem(20px);
+         width: 100%;
+         border-bottom: 1px solid #eee;
+         background: #fff;
+
+         &:last-child {
+           border-bottom: none;
+         }
+
+         > span {
+           display: inline-block;
+           width: rem(136px);
+           margin-left: rem(10px);
+           font-size: rem(32px);
+           color: #333;
+           vertical-align: middle;
+           margin-left: rem(50px);
+         }
+
+         > input {
+          //  margin-left: rem(50px);
+           padding: 0 rem(5px);
+           height: rem(68px);
+           font-size: rem(32px);
+           border: none;
+           vertical-align: middle;
+         }
+
+         i.icon {
+           display: inline-block;
+           vertical-align: top;
+           height: rem(68px);
+           line-height: rem(68px);
+           font-size: rem(40px);
+         }
+         .ycode {
+            background-color: #cccc;
+            color: #fff;
+            font-size: rem(32px);
+            border-radius: rem(10px);
+            position: absolute;
+            right: rem(27px);
+            top: 0;
+            width: rem(162px);
+            height: 100%;
+         }
+         .code {
+           position: absolute;
+           right: rem(20px);
+           bottom: rem(30px);
+
+           .phone-code {
+             height: rem(68px);
+             color: #46a5f5;
+             font-size: rem(32px);
+             border-radius: rem(10px);
+             padding: rem(20px) rem(30px);
+
+             &.active {
+              //  background: #c9c9c9;
+             }
+           }
+         }
+       }
+
+       .button-item {
+         padding-top: rem(95px);
+         padding-bottom: rem(50px);
+         font-size: rem(32px);
+         
+       }
+
+       .backLogin {
+         height: rem(46px);
+         line-height: rem(46px);
+         text-align: center;
+         margin-bottom: rem(18px);
+        
+        //  .link {
+        //    font-size: rem(32px);
+        //    color: #01b3f0;
+        //  }
+       }
+
+     }
+   }
+ }
+
+}
+
+.openEright {
+  position: absolute;
+  right:rem(60px);
+  width:rem(40px) !important;
+  height:rem(38px) !important;
+}

@@ -1,0 +1,116 @@
+@import "~assets/styles/_bootstrap";
+body {
+  overflow: visible;
+}
+.invite-page {
+  height: 100%;
+  background: #fff;
+
+  ._v-content {
+    min-height: 100%;
+    padding-bottom: rem(100px);
+    padding-top: rem(700px); 
+  }
+
+
+  .banner {
+    height: rem(499px);
+    width: 100%;
+  }
+  .wrapper {
+    background: #fff;
+    .top{
+      padding: rem(60px);
+      margin-top: rem(54px);
+    }
+    .bg {
+      height: rem(80px);
+      background: url(~assets/images/bg2.jpg) no-repeat 0px rem(-14px) ;
+      background-size: 100%;
+      text-align: center;
+      span {
+        font-weight: bold;
+      }
+    }
+    .content {
+      position: relative;
+      .tit {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .right {
+        padding-left: rem(100px);
+      }
+    }
+    .on {
+      color:#fff;
+    }
+    .share {
+      margin-top: rem(78px);;
+      height: rem(83px);
+      line-height: rem(83px);
+      text-align: center;
+      p{
+        &:last-child{
+          margin-left: rem(30px);
+          border: 1px solid #E02E24;
+        }
+      }
+    }
+    .num-wrap{
+      margin-top : rem(84px);
+      .num {
+        text-align: center;
+        padding: rem(54px);
+        .success {
+          border-left: 1px solid #cdcdcd;
+        }
+      }
+    }
+    .invrap-wrap {
+
+      .num {
+
+        text-align: center;
+      }
+      .invite-item{
+        height: rem(90px);
+        line-height: rem(90px);
+      }
+    }
+
+    .rank {
+      margin-top: rem(60px);
+    }
+    
+
+
+  }
+
+  .pLeft40 {
+    padding-left:  rem(40px);
+  }
+  .pLeft120 {
+    padding-left:  rem(120px);
+  }
+
+  .iconSize {
+    top: 0;
+    left: rem(-8px);
+  }
+  .headPortrait {
+    width: rem(50px);
+    height: rem(50px);
+    display: inline-block;
+    margin-right: rem(10px);
+    position: absolute;
+    left: rem(57px);
+    top: rem(22px);
+    
+  }
+
+
+
+}
+

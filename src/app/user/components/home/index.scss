@@ -1,0 +1,200 @@
+@import "~assets/styles/_bootstrap";
+
+.user-home-page {
+  height: 100%;
+  .container {
+    width: 100%;
+    height: rem(220px);
+    position: absolute;
+
+    .container-b {
+        width: 100%;
+        height: 100%;
+        background-image: -webkit-linear-gradient(0deg, #FF8C5F, #E02E24); 
+        background-size: 100% 100%;
+        display: flex;
+        
+        .authentication {
+            border : 1px solid #fff;
+            margin-top: rem(10px);
+            text-align : center;
+            border-radius : rem(20px);
+            width :rem(100px);
+
+            span {
+              font-size : rem(24px);
+            }
+        }
+
+        .per {
+            // margin-left: rem(-276px);
+            font-size:rem(38px);
+            position: absolute;
+            left: rem(170px);
+            top: rem(58px)
+        }
+
+        img {
+            width: rem(120px);
+            height: rem(120px);
+            border-radius: 50%;
+            position: absolute;
+            top: rem(50px);
+            left: rem(24px);
+
+        }
+
+        span {
+            color: #ffffff;
+           
+        }
+
+        p {
+            font-size: rem(28px);
+            color: #ffffff;
+        }
+
+        .headIcon {
+            position: absolute;
+            width: rem(23px);
+            height: rem(37px);
+            right: rem(40px);
+            top: rem(92px);
+            color: #fff;
+        }
+    }
+    .container-order {
+  
+      border-bottom: 1px solid #ededed ;
+      .orderItem {
+        height: rem(100px);
+        line-height: rem(100px);
+      
+
+      }
+    
+ 
+    }
+    .nav {
+        overflow: hidden;
+        height: rem(180px);
+        padding:0 rem(10px);
+        .container-order-b {
+            white-space:nowrap;
+            overflow-x:scroll;/*主要*/
+            overflow-y:hidden;/*主要*/
+            height: rem(180px);
+            text-align: center;
+            padding-top: rem(30px);
+        
+            .iconSizes {
+              display: block;
+              top:0;
+              width:rem(50px);
+              height:rem(50px);
+              margin: rem(15px) auto;              
+        }
+            p{
+              font-size: rem(28px);
+              margin-top: rem(2px);
+              // height: rem(40px);
+              // line-height: rem(40px);
+            }
+          }
+    }
+    .container-order-b::-webkit-scrollbar {
+        display: none;
+    }
+    .container-con {
+        margin-top : rem(24px);
+        margin-bottom : rem(300px);
+        .con {
+            width: 100%;
+            height: rem(100px);
+            line-height: rem(100px);
+            background: #ffffff;
+            border-bottom: 1px solid #f0f0f0;
+            display: block;
+
+            .con-left {
+                float: left;
+                // line-height: 1.3rem;
+                padding-left: rem(100px);
+                font-size: rem(30px);
+
+                i {
+                    top: rem(34px) !important;
+                    left: rem(40px) !important;
+                }
+
+                span {
+                    // font-size: rem(32px);
+                    color: #333;
+                
+                }
+            }
+
+            .con-rigth {
+                float: right;
+                line-height: 1.3rem;
+                padding-right: 0.4rem;
+            }
+        }
+    }
+
+    .red-point{
+        position: relative;
+        // display: inline-block;
+        // width:20px;
+        // height: rem(20px);
+
+      }
+
+      em {
+ 
+        background:  #e02d26;
+        border-radius:50%;
+        position: absolute;
+        z-index: 1000;
+        right: rem(-52px);
+        height: rem(34px);
+        line-height: rem(34px);
+        color:#fff;
+        display: inline-block;
+        padding:rem(2px) rem(10px);
+        // padding:rem(8px) rem(10px);
+        font-size: rem(24px);
+
+
+        // padding: rem(0px) rem(10px);
+      }
+ }
+
+ .icon-more2 {
+     width: rem(18px);
+ }
+ .inBlock {
+     display: inline-block;
+     width:rem(128px);
+ }
+
+}
+.iconMore {
+    right: rem(40px);
+}
+.checkDetail {
+    margin-left: rem(84px);
+}
+
+.addMore{
+    display: inline-block;
+    right: rem(2px);
+    top:rem(-4px);
+    width: rem(20px);
+    height: rem(30px);
+    color:#fff;
+}
+.addWrap{
+    width:rem(30px);
+    border-radius:rem(16px);
+}

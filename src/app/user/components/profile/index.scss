@@ -1,0 +1,194 @@
+@import "~assets/styles/_bootstrap";
+
+.user-profile-page {
+  height: 100%;
+  background: #edf0f0;
+
+  .wrapper {
+    // padding: rem(90px) 0;
+    height: 100%;
+
+    .controller {
+
+      .form-group {
+
+
+       
+        .input-list {
+          padding: 0 rem(20px);
+          width: 100%;
+          height: rem(102px);
+          line-height: rem(102px);
+          border-bottom: 1px solid #eee;
+          background: #fff;
+
+          &:last-child {
+            border-bottom: none;
+          }
+
+  
+          &.w280 {
+            > span {
+              width: rem(300px);
+            }
+
+            .right {
+              width: rem(320px);
+            }
+          }
+
+
+          > span {
+            position: absolute;
+            display: inline-block;
+            left: rem(20px);
+            width: rem(200px);
+            font-size: rem(31px);
+            color: #333;
+            vertical-align: middle;
+
+
+            > em {
+              padding-left: rem(10px);
+              font-size: rem(28px);
+              color: #ffa60e;
+              vertical-align: middle;
+            }
+          }
+
+          .right {
+            position: absolute;
+            display: inline-block;
+            right: rem(80px);
+            width: rem(420px);
+            height: 100%;
+            text-align: right;
+
+            &.switch {
+              right: 0;
+            }
+
+            span {
+              color: #333;
+
+              &.fc {
+                color: #999;
+                font-size: rem(31px);
+              }
+            }
+
+            > input {
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              margin: auto 0;
+              right: 0;
+              padding: 0 rem(5px);
+              width: 100%;
+              height: rem(68px);
+              font-size: rem(31px);
+              text-align: right;
+              border: none;
+              vertical-align: middle;
+
+              &.code {
+                width: 100%;
+                height: 100%;
+                opacity: 0
+              }
+
+              &.verification_code {
+                width: rem(180px);
+                right: inherit;
+                left: 0;
+              }
+            }
+
+            .code {
+              position: absolute;
+              right: 0;
+              top: 0;
+              bottom: 0;
+              margin: auto 0;
+              height: rem(64px);
+            }
+
+            .phone-code {
+              width: rem(190px);
+              height: rem(64px);
+              text-align: center;
+              line-height: rem(64px);
+              color: #fff;
+              font-size: rem(28px);
+              border-radius: rem(15px);
+              background-color: #ff8b1b;
+
+              &.active {
+                background-color: #c9c9c9;
+              }
+            }
+
+            .file-avatar {
+              width: 100%;
+              height: 100%;
+
+              .avatar {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                margin: auto 0;
+                width: rem(100px);
+                height: rem(100px);
+                border-radius: 50%;
+                overflow: hidden;
+
+                > img {
+                  top: 50%;
+                  max-width: 100%;
+                  border-radius: 50%;
+                  transform: translate(0, -50%);
+                  width: rem(100px);
+                  height:rem(100px);
+                }
+              }
+
+              .input {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                margin: auto 0;
+                width: rem(200px);
+                height: rem(80px);
+                opacity: 0;
+              }
+
+            }
+
+    
+
+          }
+        }
+        .personItem {
+          height: rem(150px);
+          line-height: rem(150px);
+          i {
+            top: rem(62px);
+          }
+        }
+ 
+
+
+      }
+
+
+    }
+  }
+
+
+
+
+}
+
+

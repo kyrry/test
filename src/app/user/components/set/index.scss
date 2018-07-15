@@ -1,0 +1,185 @@
+@import "~assets/styles/_bootstrap";
+
+.user-set-page {
+  height: 100%;
+  background: #edf0f0;
+
+  .wrapper {
+    height: 100%;
+
+    .controller {
+
+      .form-group {
+
+    
+
+        .item {
+          padding: 0 rem(20px);
+          width: 100%;
+          height: rem(102px);
+          line-height: rem(102px);
+          border-bottom: 1px solid #eee;
+          background: #fff;
+
+          &:last-child {
+            border-bottom: none;
+          }
+
+          &.w280 {
+            > span {
+              width: rem(300px);
+            }
+
+            .right {
+              width: rem(320px);
+            }
+          }
+
+
+          > span {
+            position: absolute;
+            display: inline-block;
+            left: rem(20px);
+            width: rem(200px);
+            font-size: rem(32px);
+            color: #333;
+            vertical-align: middle;
+
+
+           
+          }
+
+          .right {
+            position: absolute;
+            display: inline-block;
+            right: rem(80px);
+            width: rem(420px);
+            height: 100%;
+            text-align: right;
+
+            &.switch {
+              right: 0;
+              top: 0;
+            }
+
+            span {
+              color: #333;
+
+              &.fc {
+                color: #999;
+              }
+            }
+
+
+
+   
+
+
+            // App声音开关
+            .switch-checked {
+              height: 100%;
+
+              input[type="checkbox"] {
+                display: none;
+              }
+
+              input[type="checkbox"] + label {
+                position: absolute;
+                display: inline-block;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                margin: auto rem(45px);
+                width: rem(115px);
+                height: rem(45px);
+                transition: 0.3s;
+              }
+
+              input[type="checkbox"] + label:after {
+                display: block;
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                width: rem(45px);
+                height: rem(45px);
+                content: '';
+                cursor: pointer;
+                transition: 0.3s;
+              }
+
+              #open_audio:checked + label.green {
+                background: #4cc341;
+              }
+
+              #open_audio + label.green:before {
+                position: absolute;
+                display: block;
+                top: 0;
+                bottom: 0;
+                right: rem(12px);
+                height: rem(50px);
+                line-height: rem(50px);
+                font-size: rem(24px);
+                content: 'OFF';
+                color: #fff;
+              }
+
+              #open_audio:checked + label.green:before {
+                position: absolute;
+                display: block;
+                top: 0;
+                bottom: 0;
+                left: rem(20px);
+                right: initial;
+                height: rem(50px);
+                line-height: rem(50px);
+                font-size: rem(24px);
+                content: 'ON';
+                color: #fff;
+              }
+
+              #open_audio:checked + label.green:after {
+                background: #fff;
+              }
+
+              #open_audio:checked + label:after {
+                left: 60%;
+              }
+
+              #open_audio + label {
+                background: #ddd;
+                border-radius: rem(40px);
+                box-shadow: rem(2px) rem(2px) rem(6px) #aaa;
+              }
+
+              #open_audio + label:after {
+                background: #fff;
+                border-radius: 50%;
+                box-shadow: rem(2px) rem(2px) rem(6px) #aaa;
+              }
+
+            }
+
+          }
+        }
+
+
+
+      }
+
+
+    }
+  }
+
+
+
+  .btn{
+    background: #fff;
+    margin-top: rem(40px);
+    width: 100%;
+  }
+
+
+}
+
+

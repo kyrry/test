@@ -1,0 +1,382 @@
+
+// --图标
+
+//手机号码
+.icon-phone-num {
+  background: url('~assets/images/user/phone.png') no-repeat;
+  background-size: 100%;
+}
+
+//密码
+.icon-psw {
+  background: url('~assets/images/user/psw.png') no-repeat;
+  background-size: 100%;
+}
+
+//图片识别码
+.icon-phone-code {
+  background: url('~assets/images/user/code.png') no-repeat;
+  background-size: 100%;
+}
+//验证码
+.icon-phone-ycode {
+  background: url('~assets/images/user/ycode.png') no-repeat;
+  background-size: 100%;
+}
+
+//更多
+.icon-more {
+  background: url('~assets/images/user/more.png') no-repeat;
+  background-size: 100%;
+}
+//更多
+.icon-more2 {
+  background: url('~assets/images/user/more2.png') no-repeat;
+  background-size: 100%;
+}
+
+//tip
+.icon-tip {
+  background: url('~assets/images/user/tip.jpg') no-repeat;
+  background-size: 100%;
+}
+//add
+.icon-add1{
+  background: url('~assets/images/user/add.png') no-repeat;
+  background-size: 100%;
+}
+
+//待提交
+.icon-waiting {
+  background: url('~assets/images/user/waiting.png') no-repeat;
+  background-size: 100%;
+}
+//待拍摄
+.icon-phoneicon {
+  background: url('~assets/images/user/phoneicon.png') no-repeat;
+  background-size: 100%;
+}
+//待选图
+.icon-waitPic {
+  background: url('~assets/images/user/waitPic.png') no-repeat;
+  background-size: 100%;
+}
+//待评价
+.icon-commentIcon {
+  background: url('~assets/images/user/commentIcon.png') no-repeat;
+  background-size: 100%;
+}
+//待确认
+.icon-confirm {
+  background: url('~assets/images/user/confirm.png') no-repeat;
+  background-size: 100%;
+}
+//待售后
+.icon-saleAfter {
+  background: url('~assets/images/user/saleAfter.png') no-repeat;
+  background-size: 100%;
+}
+//我的
+.icon-mine_icon {
+  background: url('~assets/images/user/mine_icon.png') no-repeat;
+  background-size: 100%;
+}
+//待差价
+.icon-mine_icon_Gold {
+  background: url('~assets/images/user/mine_icon_Gold.png') no-repeat;
+  background-size: 100%;
+}
+//平台
+.icon-mine_icon_Customer {
+  background: url('~assets/images/user/mine_icon_Customer.png') no-repeat;
+  background-size: 100%;
+}
+//设置
+.icon-mine_icon_Settings {
+  background: url('~assets/images/user/mine_icon_Settings.png') no-repeat;
+  background-size: 100%;
+}
+//设置
+.icon-inviter {
+  background: url('~assets/images/user/inviter.png') no-repeat;
+  background-size: 100%;
+}
+//设置
+.icon-inviterrank {
+  background: url('~assets/images/user/inviterrank.png') no-repeat;
+  background-size: 100%;
+}
+//设置
+.icon-invite {
+  background: url('~assets/images/user/invite.png') no-repeat;
+  background-size: 100%;
+}
+//查看密码
+.icon-openE {
+  background: url('~assets/images/user/openE.png') no-repeat;
+  background-size: 100%;
+}
+//隐藏密码
+.icon-closeE {
+  background: url('~assets/images/user/closeE.png') no-repeat;
+  background-size: 100%;
+}
+
+.color333 {
+  color: #333;
+}
+.iconMore {
+  width: rem(20px);
+  height: rem(27px);
+  display: inline-block;
+  position: absolute;
+  top: rem(36px);
+  right:rem(40px);
+}
+.w20{
+  width: 25% !important;
+}
+.w25{
+  width: 25% !important;
+}
+.w40{
+  width: 40% !important;
+}
+.w35{
+  width: 35% !important;
+}
+
+.iconSize {
+  width: rem(40px);
+  height: rem(52px);
+  display: inline-block;
+  position: absolute;
+  top: rem(28px);
+}
+.iconTipSize {
+  width: rem(30px);
+  height: rem(30px);
+  display: inline-block;
+  position: absolute;
+  top: rem(38px);
+}
+.pRelative{
+  position: relative;
+}
+.pAbsolute{
+  position: absolute;
+}
+
+.flex{
+  display: flex;
+} 
+
+.flex-item{
+  flex: 1;
+}
+.flex-items{
+  flex: 2;
+}
+.flex-item3{
+  flex: 3;
+}
+.flex-item4{
+  flex: 4;
+}
+.flex-item5{
+  flex: 5;
+}
+
+.textC{
+  text-align: center;
+}
+.textL{
+  text-align: left;
+}
+.textR{
+  text-align: right;
+}
+.padWrap {
+  padding: rem(20px);
+}
+
+.marginTop {
+  margin-top: rem(20px);
+}
+.marginTopHeight {
+  height: rem(20px);
+}
+.marginAuto {
+  margin: 0 auto;
+}
+
+.font16 {
+  font-size: rem(32px);
+}
+.font15 {
+  font-size: rem(30px);
+}
+.font10 {
+  font-size: rem(10px);
+}
+.font14 {
+  font-size: rem(28px) !important;
+}
+.font13 {
+  font-size: rem(26px) !important;
+}
+.font12 {
+  font-size: rem(24px);
+}
+.font19 {
+  font-size: rem(38px);
+}
+.font20 {
+  font-size: rem(40px);
+}
+.font24 {
+  font-size: rem(48px);
+}
+.font16 {
+  font-size: rem(32px);
+}
+
+.lineH30 {
+  line-height: rem(30px);
+}
+.lineH40 {
+  line-height: rem(40px);
+}
+
+.mainBtn {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  line-height: rem(95px);
+  font-size: rem(32px);
+  color: #fff;
+  text-align: center;
+  border: none;
+  border-radius: rem(10px);
+  width:rem(620px);
+  height:rem(88px);
+  background:#E02E24;
+  cursor: pointer;
+}
+
+.mainSmallBtn {
+  display: inline-block;
+  margin: 0 auto;
+  border: none;
+  font-size: rem(26px);
+  color: #fff;
+  text-align: center;
+  border: none;
+  border-radius: rem(5px);
+  background:#E02E24;
+  padding: rem(2px) rem(16px) ; 
+}
+.mainBoder {
+  border:1px  solid #e2e2e2;
+}
+.mainBoderBottom {
+  border-bottom:1px  solid #e2e2e2;
+}
+.mainBoderTop {
+  border-top:1px  solid #e2e2e2;
+}
+.mainBg {
+  background: #edf0f0;
+}
+.mainFontColor {
+  color: #E02E24;
+}
+
+.mainBgColor {
+  background: #E02E24;
+}
+.color666 {
+  color: #666;
+}
+.color999 {
+  color: #999 !important;
+}
+.borderNone {
+  border: none !important;
+}
+.bgWrite {
+  background: #fff;
+}
+.pleft20 {
+  padding-left: rem(20px); 
+}
+//表单输入框
+.input-item {
+    position: absolute;
+    top: rem(26px);
+    right: rem(70px);
+    width: rem(400px);
+    height: rem(70px);
+    font-size: rem(28px);
+    text-align: left;
+    border: none;
+    outline: none;
+    color:#666;
+  }
+
+  .tips {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    > span {
+      position: absolute;
+      top: rem(-8px);
+      left: rem(10px);
+      display: inline-block;
+      font-size: rem(24px);
+      color: #fff;
+      background-color: red;
+      height: rem(32px);
+      line-height: rem(32px);
+      min-width: rem(32px);
+      text-align: center;
+      border-radius: rem(16px);
+      padding: 0 rem(8px);
+    }
+  }
+
+//渐变
+.gradualChange{
+  background: linear-gradient(#f7ac0b, #fe7621);
+}
+
+//阴影
+.boxShadow {
+  box-shadow: rem(8px) rem(10px) rem(70px) #ddd;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+.mr25 {
+  margin-right: rem(50px);
+}
+
+.ExchangeBtn {
+  width: rem(710px);
+  height: rem(90px);
+  line-height: rem(90px);
+  text-align: center;
+  font-size: rem(32px);
+  color: #fff;
+  margin: rem(55px) rem(20px) 0 rem(20px);
+  background-color: #c9c9c9;
+  border:none;
+  border-radius: rem(10px);
+}
+

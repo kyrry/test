@@ -1,0 +1,288 @@
+@import "~assets/styles/_bootstrap";
+
+.user-certify-page {
+  height: 100%;
+  background: #fff;
+
+  .wrapper {
+    // padding: rem(90px) 0;
+    height: 100%;
+
+    .controller {
+
+      .form-group {
+
+        // .input-group {
+        //   margin-top: rem(20px);
+        // }
+
+        .item {
+          padding: 0 rem(30px) 0 rem(30px);
+          width: 100%;
+          // height: rem(100px);
+          line-height: rem(100px);
+          // border-bottom: 1px solid #eee;
+          background: #fff;
+
+          &:last-child {
+            // border-bottom: none;
+          }
+
+          .sp-right {
+            position: absolute;
+            right: rem(40px);
+            top: 0;
+            bottom: 0;
+            margin: auto 0;
+          }
+
+          &.w280 {
+            > span {
+              width: rem(300px);
+            }
+
+            .right {
+              width: rem(320px);
+            }
+          }
+
+
+          > span {
+            position: absolute;
+            display: inline-block;
+            left: rem(50px);
+            width: rem(200px);
+            font-size: rem(32px);
+            color: #333;
+            vertical-align: middle;
+
+
+            > em {
+              padding-left: rem(10px);
+              font-size: rem(32px);
+              color: #ffa60e;
+              vertical-align: middle;
+            }
+          }
+
+          .right {
+            position: absolute;
+            display: inline-block;
+            right: rem(44px);
+            width: rem(468px);
+            height: 100%;
+            text-align: right;
+            color: #333;
+
+            > input {
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              margin: auto 0;
+              right: 0;
+              padding: 0 rem(5px);
+              width: 100%;
+              height: rem(68px);
+              font-size: rem(32px);
+              text-align: left;
+              border: none;
+              vertical-align: middle;
+            }
+
+            .cropper {
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              right: rem(60px);
+              margin: auto 0;
+              width: rem(80px);
+              height: rem(80px);
+            }
+
+          }
+        }
+
+        .button-item {
+          padding-top: rem(95px);
+
+          .btn {
+            display: block;
+            margin: 0 auto;
+            width: rem(710px);
+            height: rem(95px);
+            line-height: rem(95px);
+            font-size: rem(32px);
+            color: #fff;
+            text-align: center;
+            border: none;
+            border-radius: rem(10px);
+            background: #c9c9c9;
+            cursor: pointer;
+
+          }
+        }
+
+      }
+
+
+    .certify-content {
+      // padding-top: rem(20px);
+
+      .certify-head {
+        padding-left: rem(20px);
+        height: rem(100px);
+        line-height: rem(100px);
+        font-size: rem(32px);
+        // border-bottom: 1px solid $bc;
+        background: #fff;
+      }
+
+      .certify-body {
+        .item {
+          height: rem(160px);
+          line-height: rem(160px);
+          border-bottom: 1px solid $bc;
+          background: #fff;
+
+          &:last-child {
+            border-bottom: none;
+          }
+
+          .img {
+            position: absolute;
+            top: 50%;
+            left: rem(20px);
+            width: rem(200px);
+            height: rem(200px);
+            transform: translate(0, -50%);
+
+            > img {
+              margin: 0 auto;
+              max-width: 100%;
+              max-height: 100%;
+            }
+          }
+
+          .txt {
+            position: absolute;
+            display: inline-block;
+            left: rem(320px);
+            width:rem(180px);
+            height:rem(70px);
+            line-height:rem(70px);
+            background:rgba(64,158,255,1);
+            border-radius:rem(10px);
+            color: #fff;
+            top: rem(78px);
+            text-align: center;
+          }
+
+          .sp-right {
+            position: absolute;
+            top: 0;
+            right: rem(20px);
+            bottom: 0;
+            margin: auto 0;
+          }
+
+          .sp-success {
+            position: absolute;
+            top: 0;
+            right: rem(60px);
+            bottom: 0;
+            margin: auto 0;
+            width: rem(50px);
+            height: rem(50px);
+          }
+
+          > input {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 100%;
+            opacity: 0;
+            transform: translate(-50%, -50%);
+          }
+        }
+      }
+    }
+
+    .certify-btn {
+      padding: rem(80px) 0;
+      background: #fff;
+    }
+
+    }
+  }
+  .imgupload {
+    height: rem(236px) !important;
+  }
+  .messageNOtiice {
+    padding: rem(20px);
+    background: #fff;
+  }
+
+}
+
+.span{
+  position: absolute;
+  display: inline-block;
+  left: rem(50px);
+  width: rem(200px);
+  font-size: rem(32px);
+  color: #333;
+  vertical-align: middle;
+}
+.mint-cell-wrapper {
+  // margin-left: rem(30px);
+  padding: 0;
+}
+
+// .mint-popup-4 {
+//   width: 100%;
+// }
+// .mint-cell-title {
+//   width:rem(300px);
+// }
+.mint-popup-4 .picker-slot-wrapper, .page-popup .mint-popup-4 .picker-item {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.mint-cell {
+  margin-left:rem(20px) ;
+}
+
+.inputImg{
+  width: rem(200px);
+  height: rem(200px);
+  position: absolute;
+  left: 16%;
+  top: 42%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  border: none;
+  opacity: 0;
+}
+.mint-cell-title {
+  width: rem(200px)!important;
+}
+// .mint-cell {
+//   margin-left: rem(20px) !important;
+// }
+
+.iconTipSize {
+  left: rem(18px)!important;
+}
+.exampleImg {
+  position: absolute;
+  left: 0;
+  top:0;
+}
+.mint-button--large{
+    display: block;
+    width: rem(400px);
+    text-align: left;
+    background: #fff;
+    border: none;
+}
